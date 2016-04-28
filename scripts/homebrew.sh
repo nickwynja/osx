@@ -21,6 +21,9 @@ brew link --force openssl
 # GDBM
 brew install gdbm
 
+# libffi
+brew install libffi
+
 # GPG
 brew install gpg
 
