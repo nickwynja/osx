@@ -18,6 +18,10 @@ brew install readline
 brew install openssl
 brew link --force openssl
 
+# OpenSSL OSX CA
+brew tap raggi/ale
+brew install openssl-osx-ca
+
 # GDBM
 brew install gdbm
 
