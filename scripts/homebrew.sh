@@ -24,6 +24,9 @@ brew install gdbm
 # libffi
 brew install libffi
 
+# libyaml
+brew install libyaml
+
 # GPG
 brew install gpg
 
