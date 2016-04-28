@@ -133,12 +133,6 @@ brew install elm
 # Phantom.js
 brew install phantomjs
 
-# rbenv
-brew install rbenv
-brew install ruby-build
-brew install rbenv-vars
-brew install rbenv-ctags
-
 # chruby
 brew install chruby
 
