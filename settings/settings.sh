@@ -14,7 +14,7 @@ export SYSTEM_NAME=alchemist # Placeholder for system name.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Ruby
-export MRI=2.3.0
+export MRI=2.3.1
 
 # Repositories
 export REPO_RUBY_SETUP=v3.1.0
