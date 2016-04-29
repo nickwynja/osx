@@ -149,6 +149,9 @@ brew install phantomjs
 # chruby
 brew install chruby
 
+# Ruby Install
+brew install ruby-install
+
 # Rust
 brew install rust
 
