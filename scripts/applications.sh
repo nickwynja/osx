@@ -114,3 +114,20 @@ install_zip_pkg "$KSDIFF_APP_URL" "$KSDIFF_APP_NAME"
 
 # HandBrake
 install_dmg_app "$HAND_BRAKE_APP_URL" "HandBrake-0.10.5-MacOSX.6_GUI_x86_64" "$HAND_BRAKE_APP_NAME"
+
+# BBEdit
+install_dmg_app "$BBEDIT_APP_URL" "BBEdit" "$BBEDIT_APP_NAME"
+
+# BusyCal
+install_zip_pkg "$BUSYCAL_APP_NAME" "$BUSYCAL_APP_URL"
+
+# MailMate
+install_tar_app "$MAILMATE_APP_NAME" "$MAILMATE_APP_URL" "-xjf"
+
+# Keyboard Maestro
+install_zip_pkg "$KEYBOARDMAESTRO_APP_NAME" "$KEYBOARDMAESTRO_APP_URL"
+
+# Tunnelblick
+install_dmg_app "$TUNNELBLICK_APP_NAME" "Tunnelblick" "$TUNNELBLICK_APP_URL"
+
+install_zip_pkg "$FLUX_APP_NAME" "$FLUX_APP_URL"
