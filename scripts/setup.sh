@@ -4,28 +4,28 @@
 # Sets up and launches (if necessary) installed software.
 
 # Bash
-sudo bash -c "printf '/usr/local/bin/bash\n' >> /etc/shells"
+# sudo bash -c "printf '/usr/local/bin/bash\n' >> /etc/shells"
 
 # Bash Completion
-chsh -s /usr/local/bin/bash
+# chsh -s /usr/local/bin/bash
 
 # rbenv
-export PATH="/usr/local/bin:$PATH"
-eval "$(rbenv init -)"
-rbenv install $MRI
-rbenv global $MRI
+# export PATH="/usr/local/bin:$PATH"
+# eval "$(rbenv init -)"
+# rbenv install $MRI
+# rbenv global $MRI
 
 # Ruby
-printf "%s\n" "---" > "$HOME/.gemrc"
-printf "%s\n" "gem: --no-document" >> "$HOME/.gemrc"
-git clone git://github.com/bkuhlmann/ruby_setup.git
-(
-  cd ruby_setup
-  git checkout $REPO_RUBY_SETUP
-  rbenv shell $MRI
-  ./run.sh i
-)
-rm -rf ruby_setup
+# printf "%s\n" "---" > "$HOME/.gemrc"
+# printf "%s\n" "gem: --no-document" >> "$HOME/.gemrc"
+# git clone git://github.com/bkuhlmann/ruby_setup.git
+# (
+#   cd ruby_setup
+#   git checkout $REPO_RUBY_SETUP
+#   rbenv shell $MRI
+#   ./run.sh i
+# )
+# rm -rf ruby_setup
 
 # Go
 # install_git_project "git://github.com/bkuhlmann/go_setup.git" $REPO_GO_SETUP "go_setup" "./run.sh i"
