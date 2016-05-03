@@ -116,7 +116,7 @@ install_zip_pkg "$KSDIFF_APP_URL" "$KSDIFF_APP_NAME"
 install_dmg_app "$HAND_BRAKE_APP_URL" "HandBrake-0.10.5-MacOSX.6_GUI_x86_64" "$HAND_BRAKE_APP_NAME"
 
 # BBEdit
-install_dmg_app "$BBEDIT_APP_URL" "BBEdit" "$BBEDIT_APP_NAME"
+install_dmg_app "$BBEDIT_APP_URL" "BBEdit_11.5.2" "$BBEDIT_APP_NAME"
 
 # BusyCal
 install_zip_pkg "$BUSYCAL_APP_NAME" "$BUSYCAL_APP_URL"

@@ -240,13 +240,13 @@ export BBEDIT_APP_NAME="BBEdit.app"
 export BBEDIT_APP_URL="https://s3.amazonaws.com/BBSW-download/BBEdit_11.5.2.dmg"
 
 export BUSYCAL_APP_NAME="BusyCal.app"
-export BUSYCAL_APP_URL="http://www.busymac.com/download/BusyCal.zip"
+export BUSYCAL_APP_URL="https://7e968b6ce8a839f034d9-23cfb9eddcb7b94cb43ba95f95a76900.ssl.cf1.rackcdn.com/bcl-2.6.9-2015-10-19.zip"
 
 export MAILMATE_APP_NAME="MailMate.app"
-export MAILMATE_APP_URL="https://download.mailmate-app.com/"
+export MAILMATE_APP_URL="http://dl.mailmate-app.com/MailMate.tbz"
 
 export KEYBOARDMAESTRO_APP_NAME="Keyboard Maestro.app"
-export KEYBOARDMAESTRO_APP_URL="https://www.keyboardmaestro.com/action/download?km-kmi-7-b3"
+export KEYBOARDMAESTRO_APP_URL="http://files.stairways.com/keyboardmaestro-71.zip"
 
 export TUNNELBLICK_APP_NAME="Tunnelblick.app"
 export TUNNELBLICK_APP_URL="https://www.tunnelblick.net/release/Tunnelblick_3.6.2_build_4558.dmg"
